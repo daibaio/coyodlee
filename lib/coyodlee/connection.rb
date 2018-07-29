@@ -108,6 +108,12 @@ module Coyodlee
     # @!method user_details
     #   @see UserFacade#details
     def_delegator :@user_facade, :details, :user_details
+    # @!method user_credentials_token
+    #   @see UserFacade#credentials_token
+    def_delegator :@user_facade, :credentials_token, :user_credentials_token
+    # @!method update_user_token
+    #   @see UserFacade#update_password
+    def_delegator :@user_facade, :update_password, :update_user_password
 
     # @!method login_cobrand
     #   @see CobrandFacade#login

@@ -43,6 +43,24 @@ module Coyodlee
         @request_facade.execute(req)
       end
 
+      def credentials_token(login_name)
+        params = { 'loginName' => login_name }
+        req = @request_facade.build(:get, 'user/credentials/token', params: params)
+        @request_facade.execute(req)
+      end
+
+      def update_password(login_name:, new_password:, **kwargs)
+        headers = { 'Accept' => 'application/json', 'Content-Type' => 'application/json' }
+        body = {
+          user: {
+            loginName: login_name,
+            newPassword: new_password
+          }.merge(kwargs)
+        }.to_json
+        req = @request_facade.build(:post, 'user/credentials', body: body, headers: headers)
+        @request_facade.execute(req)
+      end
+
       def details
         req = @request_facade.build(:get, 'user')
         @request_facade.execute(req)
