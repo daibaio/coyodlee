@@ -18,7 +18,7 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - cobSession=08062013_1:6bb625e1b05c8c9ab719c3933ba5f13c8f4d981768480cebf57916cdf935e664beedaa703b7f0c9103b154f0d0a03764c5071b5fd2265bc6ed069f7cf5d17d8a
+      - cobSession=08062013_2:9c9cacf92adfdfb29bb9ff73ae5e58c3ec4a68f620672c39137636be9c1ce4201127b796b8c18f3b9e6fd1dba49c2ef3b2bd64798c15bbace66175a9ece45e94
   response:
     status:
       code: 200
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Yodlee-Ref-Id:
-      - y1529026229615x4t26A000000NLPYy
+      - B1532907404558W4r26x000000NLDYE
       Accept-Charset:
       - big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai,
         ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146,
@@ -58,10 +58,10 @@ http_interactions:
       Content-Length:
       - '384'
       Date:
-      - Fri, 15 Jun 2018 01:30:29 GMT
+      - Sun, 29 Jul 2018 23:36:44 GMT
     body:
       encoding: UTF-8
-      string: '{"user":{"id":10051245,"loginName":"<USER1_LOGIN_NAME>","name":{"first":"<USER1_LOGIN_NAME>","last":"<USER1_LOGIN_NAME>"},"roleType":"INDIVIDUAL","session":{"userSession":"08062013_2:c9b1c3238ff8ab188333d952f76671e71ab9d46f4deab16ee8b387bc58b1c8d9699a83f19e4974c341ca25afcfba150ac9cce27869c6e2d95db2e3f3aa4775a2"},"preferences":{"currency":"USD","timeZone":"PST","dateFormat":"MM/dd/yyyy","locale":"en_US"}}}'
+      string: '{"user":{"id":10051245,"loginName":"<USER1_LOGIN_NAME>","name":{"first":"<USER1_LOGIN_NAME>","last":"<USER1_LOGIN_NAME>"},"roleType":"INDIVIDUAL","session":{"userSession":"08062013_1:408d643f291e7a6678534aa63a9d590a9c790e9c51e3a9dd83cae8301a6aff92a969e31489ee798e88f2e37cd9a6a2db0f66b736105d1451af037968026d9545"},"preferences":{"currency":"USD","timeZone":"PST","dateFormat":"MM/dd/yyyy","locale":"en_US"}}}'
     http_version: 
-  recorded_at: Fri, 15 Jun 2018 01:30:29 GMT
+  recorded_at: Sun, 29 Jul 2018 23:36:44 GMT
 recorded_with: VCR 3.0.3

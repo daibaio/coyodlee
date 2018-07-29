@@ -68,13 +68,13 @@ http_interactions:
       Connection:
       - keep-alive
       Yodlee-Ref-Id:
-      - N1529026229323a4s27K000000NLnYu
+      - y1532907404844Q4k26W000000NLiYV
       Transfer-Encoding:
       - chunked
       Content-Type:
       - application/json;charset=UTF-8
       Date:
-      - Fri, 15 Jun 2018 01:30:29 GMT
+      - Sun, 29 Jul 2018 23:36:44 GMT
     body:
       encoding: UTF-8
       string: |-
@@ -83,9 +83,9 @@ http_interactions:
           "applicationId" : "3A4CAE9B71A1CCD7FF41F51006E9ED00",
           "locale" : "en_US",
           "session" : {
-            "cobSession" : "08062013_1:6bb625e1b05c8c9ab719c3933ba5f13c8f4d981768480cebf57916cdf935e664beedaa703b7f0c9103b154f0d0a03764c5071b5fd2265bc6ed069f7cf5d17d8a"
+            "cobSession" : "08062013_1:873c2357795ea15413fdc5d25b136d903b265c14a9f50ba193ca15a1d9939dc70b92ec374628e12cf75eca826d99995e8a4037c6caf0f8f87ed396d1c4ce6999"
           }
         }
     http_version: 
-  recorded_at: Fri, 15 Jun 2018 01:30:29 GMT
+  recorded_at: Sun, 29 Jul 2018 23:36:44 GMT
 recorded_with: VCR 3.0.3
