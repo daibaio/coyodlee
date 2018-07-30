@@ -14,7 +14,8 @@ VCR.configure do |config|
   config.hook_into :webmock
   config.default_cassette_options = {
     record: :new_episodes,
-    re_record_interval: 7.days
+    re_record_interval: 7.days,
+    match_requests_on: [:uri, :method, :body_as_json, :query]
   }
 
   config.filter_sensitive_data('<COBRAND_LOGIN>') { ENV['YODLEE_COBRAND_LOGIN'] }

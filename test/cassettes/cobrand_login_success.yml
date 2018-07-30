@@ -2,47 +2,6 @@
 http_interactions:
 - request:
     method: post
-    uri: https://developer.api.yodlee.com/ysl/v1/cobrand/login
-    body:
-      encoding: UTF-8
-      string: '{"cobrand":{"cobrandLogin":"<COBRAND_LOGIN>","cobrandPassword":"<COBRAND_PASSWORD>","locale":"en_US"}}'
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - application/json
-      User-Agent:
-      - Ruby
-      Host:
-      - developer.api.yodlee.com
-      Content-Type:
-      - application/json
-      Authorization:
-      - ''
-  response:
-    status:
-      code: 404
-      message: Not Found
-    headers:
-      Connection:
-      - keep-alive
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json;charset=UTF-8
-      Date:
-      - Thu, 14 Jun 2018 00:01:26 GMT
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "errorCode" : "Y807",
-          "errorMessage" : "Resource not found"
-        }
-    http_version: 
-  recorded_at: Thu, 14 Jun 2018 00:01:26 GMT
-- request:
-    method: post
     uri: https://developer.api.yodlee.com/ysl/restserver/v1/cobrand/login
     body:
       encoding: UTF-8
@@ -68,13 +27,13 @@ http_interactions:
       Connection:
       - keep-alive
       Yodlee-Ref-Id:
-      - y1532907404844Q4k26W000000NLiYV
+      - A1532909055106j4M27m000000NLmYG
       Transfer-Encoding:
       - chunked
       Content-Type:
       - application/json;charset=UTF-8
       Date:
-      - Sun, 29 Jul 2018 23:36:44 GMT
+      - Mon, 30 Jul 2018 00:04:15 GMT
     body:
       encoding: UTF-8
       string: |-
@@ -83,9 +42,9 @@ http_interactions:
           "applicationId" : "3A4CAE9B71A1CCD7FF41F51006E9ED00",
           "locale" : "en_US",
           "session" : {
-            "cobSession" : "08062013_1:873c2357795ea15413fdc5d25b136d903b265c14a9f50ba193ca15a1d9939dc70b92ec374628e12cf75eca826d99995e8a4037c6caf0f8f87ed396d1c4ce6999"
+            "cobSession" : "08062013_2:504b82ea23fe7f389edc791e7fe20b49bb4551bc4d13be8f15a6c52c62c71c4083f16bc3902491ef26f3f5023b505a6b76b75656fdf6686d0410c145bbce063f"
           }
         }
     http_version: 
-  recorded_at: Sun, 29 Jul 2018 23:36:44 GMT
+  recorded_at: Mon, 30 Jul 2018 00:04:15 GMT
 recorded_with: VCR 3.0.3
